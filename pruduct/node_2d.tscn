@@ -1,9 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://di3lx186uayk4"]
+[gd_scene load_steps=7 format=3 uid="uid://di3lx186uayk4"]
 
 [ext_resource type="Script" path="res://button.gd" id="1_24i6i"]
 [ext_resource type="Texture2D" uid="uid://dp073preeduo5" path="res://icon.svg" id="2_qnyt8"]
 [ext_resource type="Texture2D" uid="uid://bnpgsyqn701k5" path="res://test/1.png" id="3_qo3u2"]
-[ext_resource type="Texture2D" uid="uid://dhqs3re8d5hek" path="res://test/2.png" id="4_7l671"]
 [ext_resource type="Texture2D" uid="uid://irvr36cckyh3" path="res://test/3.png" id="5_bu2ps"]
 [ext_resource type="Texture2D" uid="uid://swgs0ogur23r" path="res://test/4.png" id="6_pffnf"]
 [ext_resource type="Texture2D" uid="uid://gmdltqvsdnx5" path="res://test/5.png" id="7_ipmwq"]
@@ -27,10 +26,6 @@ texture = ExtResource("2_qnyt8")
 position = Vector2(909, 502)
 scale = Vector2(0.289926, 0.30289)
 texture = ExtResource("3_qo3u2")
-
-[node name="Godot2" type="Sprite2D" parent="."]
-position = Vector2(167, 457)
-texture = ExtResource("4_7l671")
 
 [node name="Godot3" type="Sprite2D" parent="."]
 position = Vector2(922, 190)

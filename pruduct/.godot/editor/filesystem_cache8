@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1731834946
+button.gd::GDScript::-1::1731834501::0::1::::<>Button<>::
+icon.svg::CompressedTexture2D::8265697909798303074::1731834501::1731834947::1::::<><>::
+node_2d.tscn::PackedScene::7779285755498382129::1731834501::0::1::::<><>::res://button.gd<>uid://dp073preeduo5::::res://icon.svg<>uid://bnpgsyqn701k5::::res://test/1.png<>uid://dhqs3re8d5hek::::res://test/2.png<>uid://irvr36cckyh3::::res://test/3.png<>uid://swgs0ogur23r::::res://test/4.png<>uid://gmdltqvsdnx5::::res://test/5.png
+::res://test/::1731834501
+1.png::CompressedTexture2D::3330239049457016002::1731834501::1731834947::1::::<><>::
+2.png::CompressedTexture2D::7684757809290355182::1731834501::1731834947::1::::<><>::
+3.png::CompressedTexture2D::597912104904459738::1731834501::1731834947::1::::<><>::
+4.png::CompressedTexture2D::1309213277331839933::1731834501::1731834947::1::::<><>::
+5.png::CompressedTexture2D::446108413227019960::1731834501::1731834947::1::::<><>::
