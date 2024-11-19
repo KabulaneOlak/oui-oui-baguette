@@ -20,10 +20,10 @@ offset_top = -131.0
 offset_right = 176.5
 grow_horizontal = 2
 grow_vertical = 0
-action_mode = 0
 texture_normal = ExtResource("1_rhyki")
 
 [node name="1" type="TextureRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -38,6 +38,7 @@ grow_vertical = 2
 texture = ExtResource("1_6sv2s")
 
 [node name="2" type="TextureRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -52,6 +53,7 @@ grow_vertical = 2
 texture = ExtResource("3_la8xr")
 
 [node name="3" type="TextureRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -66,6 +68,7 @@ grow_vertical = 2
 texture = ExtResource("4_hsrdh")
 
 [node name="4" type="TextureRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -80,6 +83,7 @@ grow_vertical = 2
 texture = ExtResource("5_rjfkw")
 
 [node name="5" type="TextureRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
