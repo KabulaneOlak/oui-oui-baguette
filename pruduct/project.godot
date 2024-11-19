@@ -14,3 +14,7 @@ config/name="pruduct"
 run/main_scene="res://node_2d.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"

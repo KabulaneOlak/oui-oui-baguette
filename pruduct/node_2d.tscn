@@ -9,7 +9,7 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="." node_paths=PackedStringArray("_prod")]
 offset_left = 532.0
 offset_top = 577.0
 offset_right = 638.0
@@ -17,6 +17,7 @@ offset_bottom = 625.0
 action_mode = 0
 text = "Cliquez ici"
 script = ExtResource("1_24i6i")
+_prod = [NodePath("../Godot0"), NodePath("../Godot1"), NodePath("../Godot2"), NodePath("../Godot3"), NodePath("../Godot4")]
 
 [node name="Godot0" type="Sprite2D" parent="."]
 position = Vector2(396, 500)
@@ -27,16 +28,16 @@ position = Vector2(909, 502)
 scale = Vector2(0.289926, 0.30289)
 texture = ExtResource("3_qo3u2")
 
-[node name="Godot3" type="Sprite2D" parent="."]
+[node name="Godot2" type="Sprite2D" parent="."]
 position = Vector2(922, 190)
 texture = ExtResource("5_bu2ps")
 
-[node name="Godot4" type="Sprite2D" parent="."]
+[node name="Godot3" type="Sprite2D" parent="."]
 position = Vector2(550, 232.5)
 scale = Vector2(1.09091, 1.15101)
 texture = ExtResource("6_pffnf")
 
-[node name="Godot5" type="Sprite2D" parent="."]
+[node name="Godot4" type="Sprite2D" parent="."]
 position = Vector2(198, 188)
 texture = ExtResource("7_ipmwq")
 

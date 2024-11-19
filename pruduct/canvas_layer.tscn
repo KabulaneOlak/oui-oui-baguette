@@ -1,0 +1,94 @@
+[gd_scene load_steps=7 format=3 uid="uid://b72b3v6m6mx22"]
+
+[ext_resource type="Texture2D" uid="uid://dp073preeduo5" path="res://icon.svg" id="1_6sv2s"]
+[ext_resource type="Texture2D" uid="uid://cxpyt6majtmlt" path="res://test/cliquez.jpg" id="1_rhyki"]
+[ext_resource type="Texture2D" uid="uid://dhqs3re8d5hek" path="res://test/2.png" id="3_la8xr"]
+[ext_resource type="Texture2D" uid="uid://irvr36cckyh3" path="res://test/3.png" id="4_hsrdh"]
+[ext_resource type="Texture2D" uid="uid://swgs0ogur23r" path="res://test/4.png" id="5_rjfkw"]
+[ext_resource type="Texture2D" uid="uid://gmdltqvsdnx5" path="res://test/5.png" id="6_fys4f"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="TextureButton" type="TextureButton" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -176.5
+offset_top = -131.0
+offset_right = 176.5
+grow_horizontal = 2
+grow_vertical = 0
+action_mode = 0
+texture_normal = ExtResource("1_rhyki")
+
+[node name="1" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_6sv2s")
+
+[node name="2" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -121.0
+offset_top = -149.0
+offset_right = 121.0
+offset_bottom = 149.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_la8xr")
+
+[node name="3" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_hsrdh")
+
+[node name="4" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -121.0
+offset_top = -149.0
+offset_right = 121.0
+offset_bottom = 149.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_rjfkw")
+
+[node name="5" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_fys4f")
