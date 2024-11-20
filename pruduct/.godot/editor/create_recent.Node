@@ -1,4 +1,7 @@
+TextureRect
+HBoxContainer
+Label
+Control
 Button
 TextureButton
-TextureRect
 CanvasLayer
