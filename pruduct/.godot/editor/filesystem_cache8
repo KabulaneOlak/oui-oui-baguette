@@ -1,10 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732038624
+::res://::1732129940
 button.gd::GDScript::-1::1732037869::0::1::::<>Button<>::
-canvas_layer.tscn::PackedScene::4688313750158295453::1732038050::0::1::::<><>::uid://dp073preeduo5::::res://icon.svg
+canvas_layer.tscn::PackedScene::4688313750158295453::1732129609::0::1::::<><>::uid://dp073preeduo5::::res://icon.svg<>uid://cxpyt6majtmlt::::res://test/cliquez.jpg<>res://texture_button.gd<>uid://dhqs3re8d5hek::::res://test/2.png<>uid://irvr36cckyh3::::res://test/3.png<>uid://swgs0ogur23r::::res://test/4.png<>uid://gmdltqvsdnx5::::res://test/5.png
 icon.svg::CompressedTexture2D::8265697909798303074::1731834501::1731834947::1::::<><>::
-node_2d.tscn::PackedScene::7779285755498382129::1732038050::0::1::::<><>::res://button.gd<>uid://dp073preeduo5::::res://icon.svg<>uid://bnpgsyqn701k5::::res://test/1.png<>uid://irvr36cckyh3::::res://test/3.png<>uid://swgs0ogur23r::::res://test/4.png<>uid://gmdltqvsdnx5::::res://test/5.png
-::res://test/::1732038623
+node_2d.tscn::PackedScene::7779285755498382129::1732129505::0::1::::<><>::res://button.gd<>uid://dp073preeduo5::::res://icon.svg<>uid://bnpgsyqn701k5::::res://test/1.png<>uid://irvr36cckyh3::::res://test/3.png<>uid://swgs0ogur23r::::res://test/4.png<>uid://gmdltqvsdnx5::::res://test/5.png
+texture_button.gd::GDScript::-1::1732129496::0::1::::<>TextureButton<>::
+::res://10/::1732129928
+Android.png::CompressedTexture2D::4948614715453637464::1732129928::1732129941::1::::<><>::
+Appareil photo digital.png::CompressedTexture2D::6679616113065695657::1732129928::1732129941::1::::<><>::
+Concerve.png::CompressedTexture2D::2591339967256100316::1732129928::1732129941::1::::<><>::
+Disquette.png::CompressedTexture2D::828288449903463231::1732129928::1732129941::1::::<><>::
+Minitel.png::CompressedTexture2D::5114740203484658165::1732129928::1732129941::1::::<><>::
+Multicuiseur.png::CompressedTexture2D::3041008304059659867::1732129928::1732129941::1::::<><>::
+Nokia 3310.png::CompressedTexture2D::6930946809782496420::1732129928::1732129941::1::::<><>::
+Robot aspirateur .png::CompressedTexture2D::1124092503873580616::1732129928::1732129941::1::::<><>::
+Serveur.png::CompressedTexture2D::6774342061250692464::1732129928::1732129941::1::::<><>::
+X box série x.png::CompressedTexture2D::8802641859363137030::1732129928::1732129941::1::::<><>::
+::res://test/::1732129940
 1.png::CompressedTexture2D::3330239049457016002::1731834501::1731834947::1::::<><>::
 2.png::CompressedTexture2D::7684757809290355182::1731834501::1731834947::1::::<><>::
 3.png::CompressedTexture2D::597912104904459738::1731834501::1731834947::1::::<><>::

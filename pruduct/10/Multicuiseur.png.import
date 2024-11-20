@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://swgs0ogur23r"
-path="res://.godot/imported/4.png-5a3fa0543f69fbdab247eb5d8b39630c.ctex"
+uid="uid://bjlc7yu7vqcs6"
+path="res://.godot/imported/Multicuiseur.png-33cb610ace5f6ea8cb85b33e32c204a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test/4.png"
-dest_files=["res://.godot/imported/4.png-5a3fa0543f69fbdab247eb5d8b39630c.ctex"]
+source_file="res://10/Multicuiseur.png"
+dest_files=["res://.godot/imported/Multicuiseur.png-33cb610ace5f6ea8cb85b33e32c204a6.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://irvr36cckyh3"
-path="res://.godot/imported/3.png-84f149a70adcbc7da51fb29d067e2368.ctex"
+uid="uid://c2fwkirj8xjr2"
+path="res://.godot/imported/Appareil photo digital.png-b9a466e411193e77d22defcc0b279050.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test/3.png"
-dest_files=["res://.godot/imported/3.png-84f149a70adcbc7da51fb29d067e2368.ctex"]
+source_file="res://10/Appareil photo digital.png"
+dest_files=["res://.godot/imported/Appareil photo digital.png-b9a466e411193e77d22defcc0b279050.ctex"]
 
 [params]
 

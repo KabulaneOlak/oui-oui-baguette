@@ -1,15 +1,23 @@
-[gd_scene load_steps=7 format=3 uid="uid://b72b3v6m6mx22"]
+[gd_scene load_steps=13 format=3 uid="uid://b72b3v6m6mx22"]
 
-[ext_resource type="Texture2D" uid="uid://dp073preeduo5" path="res://icon.svg" id="1_6sv2s"]
-[ext_resource type="Texture2D" uid="uid://cxpyt6majtmlt" path="res://test/cliquez.jpg" id="1_rhyki"]
-[ext_resource type="Texture2D" uid="uid://dhqs3re8d5hek" path="res://test/2.png" id="3_la8xr"]
-[ext_resource type="Texture2D" uid="uid://irvr36cckyh3" path="res://test/3.png" id="4_hsrdh"]
-[ext_resource type="Texture2D" uid="uid://swgs0ogur23r" path="res://test/4.png" id="5_rjfkw"]
-[ext_resource type="Texture2D" uid="uid://gmdltqvsdnx5" path="res://test/5.png" id="6_fys4f"]
+[ext_resource type="Script" path="res://texture_button.gd" id="2_pdn7p"]
+[ext_resource type="Texture2D" uid="uid://bjlc7yu7vqcs6" path="res://10/Multicuiseur.png" id="7_fhm8e"]
+[ext_resource type="Texture2D" uid="uid://dxochwq3e7oao" path="res://10/X box série x.png" id="7_od28l"]
+[ext_resource type="Texture2D" uid="uid://c50nxfvd8acsi" path="res://10/Nokia 3310.png" id="8_5m6qy"]
+[ext_resource type="Texture2D" uid="uid://ccre7xlmp4rlg" path="res://10/Android.png" id="8_kq5qp"]
+[ext_resource type="Texture2D" uid="uid://qarv0bky1umq" path="res://10/Robot aspirateur .png" id="9_c2yat"]
+[ext_resource type="Texture2D" uid="uid://c2fwkirj8xjr2" path="res://10/Appareil photo digital.png" id="9_dyaxy"]
+[ext_resource type="Texture2D" uid="uid://bc6i8xg7hxoho" path="res://10/Concerve.png" id="10_0uevo"]
+[ext_resource type="Texture2D" uid="uid://c3rsoofdgvy4o" path="res://10/Serveur.png" id="10_nyhc1"]
+[ext_resource type="Texture2D" uid="uid://l2h137sv4mxj" path="res://10/Disquette.png" id="11_8xela"]
+[ext_resource type="Texture2D" uid="uid://ce4va2urxu14d" path="res://10/Minitel.png" id="12_w5pwd"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ijc7y"]
+load_path = "res://.godot/imported/cliquez.jpg-6d52a8a4bba635ff5d1fdc6a0b586935.ctex"
 
 [node name="CanvasLayer" type="CanvasLayer"]
 
-[node name="TextureButton" type="TextureButton" parent="."]
+[node name="TextureButton" type="TextureButton" parent="." node_paths=PackedStringArray("_prod")]
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
@@ -20,7 +28,10 @@ offset_top = -131.0
 offset_right = 176.5
 grow_horizontal = 2
 grow_vertical = 0
-texture_normal = ExtResource("1_rhyki")
+texture_normal = SubResource("CompressedTexture2D_ijc7y")
+texture_pressed = SubResource("CompressedTexture2D_ijc7y")
+script = ExtResource("2_pdn7p")
+_prod = [NodePath("../1"), NodePath("../2"), NodePath("../3"), NodePath("../4"), NodePath("../5"), NodePath("../6"), NodePath("../7"), NodePath("../8"), NodePath("../9"), NodePath("../10")]
 
 [node name="1" type="TextureRect" parent="."]
 visible = false
@@ -35,7 +46,7 @@ offset_right = 64.0
 offset_bottom = 64.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_6sv2s")
+texture = ExtResource("8_kq5qp")
 
 [node name="2" type="TextureRect" parent="."]
 visible = false
@@ -50,7 +61,7 @@ offset_right = 121.0
 offset_bottom = 149.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("3_la8xr")
+texture = ExtResource("9_dyaxy")
 
 [node name="3" type="TextureRect" parent="."]
 visible = false
@@ -65,7 +76,7 @@ offset_right = 176.5
 offset_bottom = 172.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_hsrdh")
+texture = ExtResource("10_0uevo")
 
 [node name="4" type="TextureRect" parent="."]
 visible = false
@@ -80,7 +91,7 @@ offset_right = 121.0
 offset_bottom = 149.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_rjfkw")
+texture = ExtResource("11_8xela")
 
 [node name="5" type="TextureRect" parent="."]
 visible = false
@@ -95,4 +106,81 @@ offset_right = 176.5
 offset_bottom = 172.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("6_fys4f")
+texture = ExtResource("12_w5pwd")
+
+[node name="6" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_fhm8e")
+
+[node name="7" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_5m6qy")
+
+[node name="8" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_c2yat")
+
+[node name="9" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("10_nyhc1")
+
+[node name="10" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -172.0
+offset_right = 176.5
+offset_bottom = 172.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_od28l")
+
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]

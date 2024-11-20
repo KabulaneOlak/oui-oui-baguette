@@ -2,10 +2,18 @@
 
 [ext_resource type="Script" path="res://button.gd" id="1_24i6i"]
 [ext_resource type="Texture2D" uid="uid://dp073preeduo5" path="res://icon.svg" id="2_qnyt8"]
-[ext_resource type="Texture2D" uid="uid://bnpgsyqn701k5" path="res://test/1.png" id="3_qo3u2"]
-[ext_resource type="Texture2D" uid="uid://irvr36cckyh3" path="res://test/3.png" id="5_bu2ps"]
-[ext_resource type="Texture2D" uid="uid://swgs0ogur23r" path="res://test/4.png" id="6_pffnf"]
-[ext_resource type="Texture2D" uid="uid://gmdltqvsdnx5" path="res://test/5.png" id="7_ipmwq"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x78g7"]
+load_path = "res://.godot/imported/1.png-9e32a7034620384cb48603e7f446602e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m7erx"]
+load_path = "res://.godot/imported/3.png-84f149a70adcbc7da51fb29d067e2368.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8kwr7"]
+load_path = "res://.godot/imported/4.png-5a3fa0543f69fbdab247eb5d8b39630c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_a4oqv"]
+load_path = "res://.godot/imported/5.png-c7b86f7958d92292c717ef87053e9dc4.ctex"
 
 [node name="Node2D" type="Node2D"]
 
@@ -26,19 +34,19 @@ texture = ExtResource("2_qnyt8")
 [node name="Godot1" type="Sprite2D" parent="."]
 position = Vector2(909, 502)
 scale = Vector2(0.289926, 0.30289)
-texture = ExtResource("3_qo3u2")
+texture = SubResource("CompressedTexture2D_x78g7")
 
 [node name="Godot2" type="Sprite2D" parent="."]
 position = Vector2(922, 190)
-texture = ExtResource("5_bu2ps")
+texture = SubResource("CompressedTexture2D_m7erx")
 
 [node name="Godot3" type="Sprite2D" parent="."]
 position = Vector2(550, 232.5)
 scale = Vector2(1.09091, 1.15101)
-texture = ExtResource("6_pffnf")
+texture = SubResource("CompressedTexture2D_8kwr7")
 
 [node name="Godot4" type="Sprite2D" parent="."]
 position = Vector2(198, 188)
-texture = ExtResource("7_ipmwq")
+texture = SubResource("CompressedTexture2D_a4oqv")
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

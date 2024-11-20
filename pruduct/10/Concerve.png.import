@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxpyt6majtmlt"
-path="res://.godot/imported/cliquez.jpg-6d52a8a4bba635ff5d1fdc6a0b586935.ctex"
+uid="uid://bc6i8xg7hxoho"
+path="res://.godot/imported/Concerve.png-4f4c769309346cb4e05972a76693dcc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test/cliquez.jpg"
-dest_files=["res://.godot/imported/cliquez.jpg-6d52a8a4bba635ff5d1fdc6a0b586935.ctex"]
+source_file="res://10/Concerve.png"
+dest_files=["res://.godot/imported/Concerve.png-4f4c769309346cb4e05972a76693dcc3.ctex"]
 
 [params]
 

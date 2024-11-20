@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhqs3re8d5hek"
-path="res://.godot/imported/2.png-9610c93e9d9fbb073b14d933f7c4d4d3.ctex"
+uid="uid://ce4va2urxu14d"
+path="res://.godot/imported/Minitel.png-4528d3e12e331ae3de566fa517ab915d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test/2.png"
-dest_files=["res://.godot/imported/2.png-9610c93e9d9fbb073b14d933f7c4d4d3.ctex"]
+source_file="res://10/Minitel.png"
+dest_files=["res://.godot/imported/Minitel.png-4528d3e12e331ae3de566fa517ab915d.ctex"]
 
 [params]
 

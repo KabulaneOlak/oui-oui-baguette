@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnpgsyqn701k5"
-path="res://.godot/imported/1.png-9e32a7034620384cb48603e7f446602e.ctex"
+uid="uid://l2h137sv4mxj"
+path="res://.godot/imported/Disquette.png-0e7e27bdb8405386c4f8ee2c133e0e7b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test/1.png"
-dest_files=["res://.godot/imported/1.png-9e32a7034620384cb48603e7f446602e.ctex"]
+source_file="res://10/Disquette.png"
+dest_files=["res://.godot/imported/Disquette.png-0e7e27bdb8405386c4f8ee2c133e0e7b.ctex"]
 
 [params]
 
